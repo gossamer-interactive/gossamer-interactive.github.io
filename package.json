@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "npm test",
-    "build": "npx @11ty/eleventy",
-    "start": "npx @11ty/eleventy --serve"
+    "build": "snowpack build",
+    "clean": "npx del dist",
+    "start": "npm run clean && snowpack dev"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,9 @@
   "homepage": "https://github.com/shedrachokonofua/gossamer#readme",
   "dependencies": {
     "@11ty/eleventy": "^0.11.1"
+  },
+  "devDependencies": {
+    "del-cli": "^3.0.1",
+    "snowpack": "^2.16.1"
   }
 }

@@ -22,7 +22,7 @@ function init() {
     var mapElement = document.getElementById('map');
     var map = new google.maps.Map(mapElement, mapOptions);
     var locations = [
-['Apple store', 'undefined', 'undefined', 'undefined', 'undefined', 40.7635573, -73.9723018, 'https://mapbuildr.com/assets/img/markers/default.png']
+['Apple store', 'undefined', 'undefined', 'undefined', 'undefined', 40.7635573, -73.9723018, 'https://mapbuildr.com//img/markers/default.png']
     ];
     for (i = 0; i < locations.length; i++) {
   if (locations[i][1] =='undefined'){ description ='';} else { description = locations[i][1];}
