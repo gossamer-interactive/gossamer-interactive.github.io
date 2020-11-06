@@ -1,0 +1,24 @@
+{
+  "name": "gossamer",
+  "version": "1.0.0",
+  "description": "Gossamer",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "build": "npx @11ty/eleventy",
+    "start": "npx @11ty/eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shedrachokonofua/gossamer.git"
+  },
+  "author": "Fledger Labs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shedrachokonofua/gossamer/issues"
+  },
+  "homepage": "https://github.com/shedrachokonofua/gossamer#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^0.11.1"
+  }
+}
