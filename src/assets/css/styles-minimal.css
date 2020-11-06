@@ -1,0 +1,88 @@
+/*
+  SCRN Minimalist version
+*/
+
+a {
+  color: #2c2c2c;
+}
+
+.btn-default {
+  background: #fff;
+  color: #2c2c2c;
+  -webkit-box-shadow: 0 0 0 1px #2c2c2c;
+  box-shadow: 0 0 0 1px #2c2c2c;
+}
+
+.btn-default:hover {
+  background-color: #2c2c2c;
+  color: #fff;
+}
+
+.call-to-action {
+  background: #fff;
+}
+
+#intro {
+  background-position: center;
+  background-size: cover;
+}
+
+#intro h1, #intro p {
+  color: #2c2c2c;
+}
+
+nav.navbar {
+  background: #fff;
+  border-bottom: 1px solid #777;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+#services,
+#contact {
+  background: #fff;
+}
+
+#services p, #services h2, #services h4, #services h5, #services label,
+  #contact p,
+  #contact h2,
+  #contact h4,
+  #contact h5,
+  #contact label {
+  color: #2c2c2c;
+}
+
+#services i {
+  color: #2c2c2c;
+}
+
+.pricing-table {
+  background-color: #fff;
+  color: #2c2c2c;
+  -webkit-box-shadow: 0 0 0 2px #2c2c2c;
+  box-shadow: 0 0 0 2px #2c2c2c;
+}
+
+.pricing-table p,
+  .pricing-table li {
+  color: #2c2c2c;
+}
+
+.skill-bar {
+  background: #e7e9e9;
+}
+
+#contact .form-control {
+  background-color: #fff;
+  border: 1px solid #2c2c2c;
+}
+
+#contact .contact-info li {
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 0 1px #2c2c2c;
+  box-shadow: 0 0 0 1px #2c2c2c;
+}
+
+#contact .contact-info i {
+  color: #2c2c2c;
+}

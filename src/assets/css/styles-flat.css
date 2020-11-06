@@ -1,0 +1,88 @@
+/*
+  SCRN Flat version
+*/
+
+.btn-default {
+  background: #5fcf80;
+}
+
+.btn-white {
+  background: #fff;
+  color: #2c2c2c;
+}
+
+nav.navbar {
+  background: #39add1;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.nav > li > a {
+  color: #fff;
+}
+
+#services, #contact {
+  background: #5fcf80;
+}
+
+#services p,
+  #services h2,
+  #services h4,
+  #services h5, #contact p,
+  #contact h2,
+  #contact h4,
+  #contact h5 {
+  color: #fff;
+}
+
+#services header h2::after, #contact header h2::after {
+  background-color: #fff;
+}
+
+.pt-1 {
+  background: #5fcf80;
+}
+
+.pt-2 {
+  background: #39add1;
+}
+
+.pt-3 {
+  background: #19bc9d;
+}
+
+.pt-4 {
+  background: #e74c3c;
+}
+
+.pricing-table {
+  border: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.pricing-table .btn {
+  background-color: #fff;
+  color: #2c2c2c;
+}
+
+.pricing-table p,
+  .pricing-table li {
+  color: #fff;
+}
+
+.skill-bar {
+  background: #39add1;
+}
+
+.contact-info i {
+  color: #fff;
+}
+
+.contact-info li {
+  background-color: #53ba71;
+}
+
+#contact label {
+  color: #fff;
+}
