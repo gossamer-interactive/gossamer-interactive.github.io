@@ -4,5 +4,9 @@
     "mount:assets": "mount assets --to /",
     "run:eleventy": "eleventy",
     "run:eleventy::watch": "$1 --watch"
+  },
+  "buildOptions": {
+    "out": "dist",
+    "clean": true
   }
 }
