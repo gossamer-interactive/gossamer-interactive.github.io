@@ -10,6 +10,8 @@
     <link href="/images/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet"> 
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,600,700' rel='stylesheet' type='text/css'>
     <link href="/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 
@@ -22,16 +24,31 @@
     <link href="/vendor/vanillabox/theme/bitter/vanillabox.css" rel="stylesheet">
 
     <!-- Main CSS -->
+    <link href="/css/typography.css" rel="stylesheet">
+    <link href="/css/buttons.css" rel="stylesheet">
     <link href="/css/styles.css" rel="stylesheet">
   </head>
 <body>
 <div class="animsition">
 
 
-<section id="intro" class="intro-1 parallax-window" data-parallax="scroll">
-  <div class="intro-content">
-  </div> <!-- end intro-content -->
-</section> <!-- /#intro -->
+<section id="intro" class="parallax-window" data-parallax="scroll">
+  <header>
+    <img src="/images/logo.png" />
+    <h1>Gossamer Interactive</h1>
+  </header>
+
+  <div class="banner">
+    <div class="hero">
+      <img src="/images/hero.png" />
+    </div>
+    <div class="info">
+      <p class="title">Gossamer Interactive is a <br/> Digital Design Studio in Atlanta, GA</p>
+      <p class="description">We create beautiful, intentional digital products based on <br/> research, design principles, and excellent user experience.</p>
+      <a href="#contact" class="cta-button">Contact Us</a>
+    </div>
+  </div>
+</section>
 
 
 
@@ -48,10 +65,10 @@
       </div>
       <div id="navbar" class="collapse navbar-collapse">
         <ul class="nav navbar-nav">
-          <li><a href="index.html#intro">Home</a></li>
-          <li><a href="index.html#work">Work</a></li>
-          <li><a href="index.html#services">Services</a></li>
-          <li><a href="index.html#contact">Contact</a></li>
+          <li><a href="#intro">Home</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </div><!-- end nav-collapse -->
     </div>

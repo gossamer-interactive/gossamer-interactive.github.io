@@ -1,0 +1,30 @@
+.btn-default {
+  background: #2c2c2c;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-radius: 3px;
+  border: none;
+  padding: 16px 38px;
+  transition: all ease-in-out 300ms;
+  -webkit-transition: all ease-in-out 300ms;
+}
+
+.btn-default:hover {
+  background-color: #2c2c2c;
+  color: #fff;
+  opacity: 0.7;
+}
+
+.btn-white {
+  background-color: #fff;
+  color: #2c2c2c;
+}
+
+.btn-white:hover {
+  color: #fff;
+  -webkit-box-shadow: 0 0 0 2px #fff;
+  box-shadow: 0 0 0 2px #fff;
+}
