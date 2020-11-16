@@ -5,6 +5,8 @@ body {
 
 h1, h2, h3, h4, h5 {
   font-family: 'Bebas Neue', cursive;
+  margin: 0;
+  padding: 0;
 }
 
 p {
@@ -22,10 +24,15 @@ span.big-h1 {
   font-size: 180px;
 }
 
-h2 {
-  font-size: 80px;
-  font-weight: 700;
-  text-transform: uppercase;
+h2 {  
+  font-size: 64px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #000000;
 }
 
 h3 {
