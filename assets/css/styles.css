@@ -17,12 +17,12 @@ section header {
 }
 
 section header h2::after {
-  background-color: #9c9c9c;
+  background-color: #187978;
   content: "";
-  height: 3px;
-  width: 36px;
+  height: 2px;
+  width: 75px;
   display: block;
-  margin: 28px auto;
+  margin: 24px auto;
 }
 
 section header p {
@@ -34,7 +34,6 @@ section header p {
 }
 
 section#work,
-section#services,
 section#contact {
   padding: 130px 0 140px 0;
 }
@@ -206,6 +205,84 @@ section#contact {
   margin-top: 40px;
 }
 
+#services {
+  padding: 56px 30px;
+}
+
+#services > h2 {
+  font-size: 64px;
+}
+
+#services > .content {
+  margin-top: 8px;  
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #4a4a4a;
+}
+
+#services > .process {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+#services > .process > .item {
+  margin-top: 50px;
+}
+
+#services > .process > .item > img {
+  display: block;
+  margin: auto;
+  width: 50%;
+  margin-bottom: 16px;
+}
+
+#services > .process > .item > span {
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #4a4a4a;
+}
+
+@media screen and (min-width: 480px) {
+  #services > .process > .item > img {
+    width: 143px;
+    height: 132px;
+    margin-bottom: 16px;
+  }
+  
+  #services > .process > .item > span {
+    font-size: 16px;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  #services > .process {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  #services {
+    box-shadow: 1px 1px 45px 20px rgba(188, 188, 188, 0.12);
+    background-color: #fafdff;
+    margin: 89px;
+    padding: 44px 165px;
+  }
+}
 
 /******************************
  06. Navigation
@@ -409,80 +486,6 @@ p.project-side-title {
 }
 
 
-
-/******************************
- 08. Services
-******************************/
-
-#services {
-  background-color: #333435;
-  padding-bottom: 110px !important;
-}
-
-#services h2, #services h4, #services p, #services i {
-  color: #fff;
-}
-
-#services header h2::after {
-  background-color: #c0bdbd;
-}
-
-.services-list {
-  text-align: center;
-  margin-top: 150px;
-}
-
-.services-list i {
-  font-size: 60px;
-  margin-bottom: 20px;
-}
-
-.services-list h4 {
-  font-size: 24px;
-  letter-spacing: 2px;
-  margin-bottom: 30px;
-}
-
-.services-list p {
-  margin-bottom: 90px;
-}
-
-/***** Team *****/
-
-.team {
-  text-align: center;
-  margin-top: 120px;
-}
-
-.team header {
-  margin-bottom: 60px;
-}
-
-.team ul {
-  margin-bottom: 18px;
-}
-
-.team li {
-  margin: 0 4px;
-  padding: 0;
-}
-
-.team img {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-p.team-name {
-  font-size: 24px;
-  font-weight: 600;
-  margin-top: 22px;
-  margin-bottom: 0;
-}
-
-p.team-job {
-  color: #777;
-  margin-bottom: 20px;
-}
 
 /******************************
  12. Contact
@@ -718,10 +721,6 @@ p.team-job {
 
   .single-project img {
     margin: 0 auto 30px auto;
-  }
-
-  .services-list p {
-    margin-bottom: 60px;
   }
 
   section.team header {
