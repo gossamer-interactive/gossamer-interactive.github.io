@@ -271,7 +271,7 @@ section#contact {
 @media screen and (min-width: 768px) {
   #services > .process {
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
   }
 }
 
