@@ -251,7 +251,7 @@ section header h2::after {
   position: relative;
 }
 
-.project > img {
+.project-cover-image {
   margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
