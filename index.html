@@ -9,7 +9,6 @@
     <link href="/images/favicon.ico" rel="shortcut icon" />
     <link href="/images/apple-touch-icon.png" rel="apple-touch-icon" />
 
-    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
@@ -25,7 +24,6 @@
       rel="stylesheet"
     />
 
-    <!-- CSS -->
     <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
     <link href="/vendor/animsition/css/animsition.min.css" rel="stylesheet" />
     <link href="/vendor/nivo-slider/nivo-slider.css" rel="stylesheet" />
@@ -39,20 +37,21 @@
       rel="stylesheet"
     />
 
-    <!-- Main CSS -->
     <link href="/css/typography.css" rel="stylesheet" />
     <link href="/css/buttons.css" rel="stylesheet" />
     <link href="/css/styles.css" rel="stylesheet" />
+    <link href="/css/template-styles.css" rel="stylesheet" />
+    <link href="/css/utilities.css" rel="stylesheet" />
   </head>
   <body>
     <div class="animsition">
       <section id="intro" class="parallax-window" data-parallax="scroll">
         <header>
-          <img src="/images/logo.png" />
-          <h1>Gossamer Interactive</h1>
+          <img src="/images/logo.png" class="logo-image" />
+          <h1 class="brand-name">Gossamer Interactive</h1>
         </header>
 
-        <div class="banner">
+        <div class="intro-banner">
           <div class="hero">
             <img src="/images/hero.png" />
           </div>
@@ -65,7 +64,9 @@
               We create beautiful, intentional digital products based on <br />
               research, design principles, and excellent user experience.
             </p>
-            <a href="#contact" class="cta-button">Contact Us</a>
+            <a href="#contact" class="cta-button contact-us-button"
+              >Contact Us</a
+            >
           </div>
         </div>
       </section>
@@ -96,199 +97,162 @@
                 <li><a href="#contact">Contact</a></li>
               </ul>
             </div>
-            <!-- end nav-collapse -->
           </div>
         </nav>
       </div>
-      <!-- end js_fixedcontent -->
-
-      <section id="services">
-        <header>
-          <h2>OUR EXPERTISE</h2>
-        </header>
-        <p class="content">
-          We craft strategic, user-centered designs tailored to engage a broad
-          audience. Our services include Design, User Research and Testing, and
-          Brand Identity development.
-        </p>
-        <div class="process">
-          <div class="item">
-            <img src="./images/research-and-ideate.svg" />
-            <span>Research & Ideate</span>
-          </div>
-          <div class="item">
-            <img src="./images/design-and-iterate.svg" />
-            <span>Design & Iterate</span>
-          </div>
-          <div class="item">
-            <img src="./images/test-and-learn.svg" />
-            <span>Test & Learn</span>
-          </div>
-        </div>
-      </section>
-
-      <section id="work">
-        <div class="container">
+      <div class="container">
+        <section id="services" class="block">
           <header>
-            <h2>Work</h2>
-            <p>
-              I have traced the Rebel spies to her. Now she is my only link to
-              finding their secret base. You don't believe in the Force, do you?
-            </p>
+            <h2>OUR EXPERTISE</h2>
+          </header>
+          <p class="content">
+            We craft strategic, user-centered designs tailored to engage a broad
+            audience. Our services include Design, User Research and Testing,
+            and Brand Identity development.
+          </p>
+          <div class="process">
+            <div class="process-item">
+              <img src="./images/research-and-ideate.svg" />
+              <span>Research & Ideate</span>
+            </div>
+            <div class="process-item">
+              <img src="./images/design-and-iterate.svg" />
+              <span>Design & Iterate</span>
+            </div>
+            <div class="process-item">
+              <img src="./images/test-and-learn.svg" />
+              <span>Test & Learn</span>
+            </div>
+          </div>
+        </section>
+
+        <section id="work" class="block">
+          <header>
+            <h2>Recent Work</h2>
           </header>
 
-          <!-- begin slider -->
-          <div class="slider-wrapper theme-default">
-            <div id="slider" class="nivoSlider">
-              <img src="/images/slide-1.jpg" alt="" />
+          <p class="content">
+            The work we create spans various industries, but always emphasizes
+            accessibility, usability, and visual appeal.
+          </p>
 
-              <img src="/images/slide-2.jpg" alt="" />
-
-              <img
-                src="/images/slide-3.jpg"
-                alt=""
-                title="This is an example of a caption"
-              />
+          <div class="projects row">
+            <div class="col-md-4 col-sm-6 project">
+              <a href="/images/work-1.jpg">
+                <img
+                  src="/images/work-thumb-1.jpg"
+                  class="work-thumb img-responsive"
+                  alt=""
+                />
+                <div class="overlay">
+                  <div class="overlay-content">
+                    <h3>Image</h3>
+                    <p>View Details</p>
+                  </div>
+                  <!-- /.overlay-content -->
+                </div>
+                <!-- /.overlay-->
+              </a>
             </div>
-            <!-- end slider -->
-          </div>
-          <!-- end slider-wrapper -->
-          <!-- end slider -->
+            <!-- end col-md-4 -->
 
-          <ul class="filter-list list-inline list-unstyled">
-            <li class="filter" data-filter="all">all</li>
-            <li class="filter" data-filter=".category-1">web</li>
-            <li class="filter" data-filter=".category-2">print</li>
-            <li class="filter" data-filter=".category-3">video</li>
-          </ul>
-
-          <div id="work-container" class="work-gallery">
-            <div class="row">
-              <div class="col-md-4 col-sm-6 mix category-1">
-                <a href="/images/work-1.jpg" class="image">
-                  <img
-                    src="/images/work-thumb-1.jpg"
-                    class="work-thumb img-responsive"
-                    alt=""
-                  />
-                  <div class="overlay">
-                    <div class="overlay-content">
-                      <h3>Image</h3>
-                      <p>View Details</p>
-                    </div>
-                    <!-- /.overlay-content -->
+            <div class="col-md-4 col-sm-6 project">
+              <a href="single-project.html">
+                <img
+                  src="/images/work-thumb-2.jpg"
+                  class="work-thumb img-responsive"
+                  alt=""
+                />
+                <div class="overlay">
+                  <div class="overlay-content">
+                    <h3>Single Project</h3>
+                    <p>View Details</p>
                   </div>
-                  <!-- /.overlay-->
-                </a>
-              </div>
-              <!-- end col-md-4 -->
-
-              <div class="col-md-4 col-sm-6 mix category-2">
-                <a href="single-project.html">
-                  <img
-                    src="/images/work-thumb-2.jpg"
-                    class="work-thumb img-responsive"
-                    alt=""
-                  />
-                  <div class="overlay">
-                    <div class="overlay-content">
-                      <h3>Single Project</h3>
-                      <p>View Details</p>
-                    </div>
-                    <!-- /.overlay-content -->
-                  </div>
-                  <!-- /.overlay-->
-                </a>
-              </div>
-              <!-- end col-md-4 -->
-
-              <div class="col-md-4 col-sm-6 mix category-1">
-                <a href="https://player.vimeo.com/video/61411580" class="vimeo">
-                  <img
-                    src="/images/work-thumb-3.jpg"
-                    class="work-thumb img-responsive"
-                    alt=""
-                  />
-                  <div class="overlay">
-                    <div class="overlay-content">
-                      <h3>Vimeo</h3>
-                      <p>View Details</p>
-                    </div>
-                    <!-- /.overlay-content -->
-                  </div>
-                  <!-- /.overlay-->
-                </a>
-              </div>
-              <!-- end col-md-4 -->
-
-              <div class="col-md-4 col-sm-6 mix category-3">
-                <a
-                  href="https://www.youtube.com/embed/xTrhGCH9TOk"
-                  class="youtube"
-                >
-                  <img
-                    src="/images/work-thumb-4.jpg"
-                    class="work-thumb img-responsive"
-                    alt=""
-                  />
-                  <div class="overlay">
-                    <div class="overlay-content">
-                      <h3>Youtube</h3>
-                      <p>View Details</p>
-                    </div>
-                    <!-- /.overlay-content -->
-                  </div>
-                  <!-- /.overlay-->
-                </a>
-              </div>
-              <!-- end col-md-4 -->
-
-              <div class="col-md-4 col-sm-6 mix category-2">
-                <a href="http://themes.wearekllr.com" class="website">
-                  <img
-                    src="/images/work-thumb-5.jpg"
-                    class="work-thumb img-responsive"
-                    alt=""
-                  />
-                  <div class="overlay">
-                    <div class="overlay-content">
-                      <h3>Website</h3>
-                      <p>View Details</p>
-                    </div>
-                    <!-- /.overlay-content -->
-                  </div>
-                  <!-- /.overlay-->
-                </a>
-              </div>
-              <!-- end col-md-4 -->
-
-              <div class="col-md-4 col-sm-6 mix category-3">
-                <a href="/images/work-2.jpg" class="image">
-                  <img
-                    src="/images/work-thumb-6.jpg"
-                    class="work-thumb img-responsive"
-                    alt=""
-                  />
-                  <div class="overlay">
-                    <div class="overlay-content">
-                      <h3>Image</h3>
-                      <p>View Details</p>
-                    </div>
-                    <!-- /.overlay-content -->
-                  </div>
-                  <!-- /.overlay-->
-                </a>
-              </div>
-              <!-- end col-md-4 -->
+                  <!-- /.overlay-content -->
+                </div>
+                <!-- /.overlay-->
+              </a>
             </div>
-            <!-- end row -->
-          </div>
-          <!-- end work-container -->
-        </div>
-        <!-- end container -->
-      </section>
-      <!-- end work -->
+            <!-- end col-md-4 -->
 
+            <div class="col-md-4 col-sm-6 project">
+              <a href="https://player.vimeo.com/video/61411580">
+                <img
+                  src="/images/work-thumb-3.jpg"
+                  class="work-thumb img-responsive"
+                  alt=""
+                />
+                <div class="overlay">
+                  <div class="overlay-content">
+                    <h3>Vimeo</h3>
+                    <p>View Details</p>
+                  </div>
+                  <!-- /.overlay-content -->
+                </div>
+                <!-- /.overlay-->
+              </a>
+            </div>
+            <!-- end col-md-4 -->
+
+            <div class="col-md-4 col-sm-6 project">
+              <a href="https://www.youtube.com/embed/xTrhGCH9TOk">
+                <img
+                  src="/images/work-thumb-4.jpg"
+                  class="work-thumb img-responsive"
+                  alt=""
+                />
+                <div class="overlay">
+                  <div class="overlay-content">
+                    <h3>Youtube</h3>
+                    <p>View Details</p>
+                  </div>
+                  <!-- /.overlay-content -->
+                </div>
+                <!-- /.overlay-->
+              </a>
+            </div>
+            <!-- end col-md-4 -->
+
+            <div class="col-md-4 col-sm-6 project">
+              <a href="http://themes.wearekllr.com">
+                <img
+                  src="/images/work-thumb-5.jpg"
+                  class="work-thumb img-responsive"
+                  alt=""
+                />
+                <div class="overlay">
+                  <div class="overlay-content">
+                    <h3>Website</h3>
+                    <p>View Details</p>
+                  </div>
+                  <!-- /.overlay-content -->
+                </div>
+                <!-- /.overlay-->
+              </a>
+            </div>
+            <!-- end col-md-4 -->
+
+            <div class="col-md-4 col-sm-6 project">
+              <a href="/images/work-2.jpg">
+                <img
+                  src="/images/work-thumb-6.jpg"
+                  class="work-thumb img-responsive"
+                  alt=""
+                />
+                <div class="overlay">
+                  <div class="overlay-content">
+                    <h3>Image</h3>
+                    <p>View Details</p>
+                  </div>
+                  <!-- /.overlay-content -->
+                </div>
+                <!-- /.overlay-->
+              </a>
+            </div>
+            <!-- end col-md-4 -->
+          </div>
+        </section>
+      </div>
       <section id="contact">
         <div class="container">
           <header>

@@ -1,0 +1,22 @@
+.block {
+  float: none;
+  margin: 86px auto;
+}
+
+.block > .content {
+  margin-top: 8px;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #4a4a4a;
+}
+
+@media screen and (min-width: 768px) {
+  .block {
+    margin: 146px auto;
+  }
+}
