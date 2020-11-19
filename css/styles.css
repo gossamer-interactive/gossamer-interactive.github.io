@@ -38,11 +38,9 @@ section#contact {
   padding: 130px 0 140px 0;
 }
 
-
 /******************************
  03. Buttons
 ******************************/
-
 
 /******************************
  05. Intro
@@ -55,8 +53,14 @@ section#contact {
   -moz-transform-style: preserve-3d;
   transform-style: preserve-3d;
   color: #fff;
-  background: rgb(35,135,134);
-  background: linear-gradient(0deg, rgba(8,74,92,1) 0%, rgba(17,94,96,1) 30%, rgba(22,114,114,1) 65%, rgba(35,135,134,1) 100%);
+  background: rgb(35, 135, 134);
+  background: linear-gradient(
+    0deg,
+    rgba(8, 74, 92, 1) 0%,
+    rgba(17, 94, 96, 1) 30%,
+    rgba(22, 114, 114, 1) 65%,
+    rgba(35, 135, 134, 1) 100%
+  );
 }
 
 #intro > header {
@@ -68,9 +72,8 @@ section#contact {
 #intro > header > img {
   height: 59px;
   width: 58px;
-  object-fit: contain
+  object-fit: contain;
 }
-
 
 #intro > header > h1 {
   font-size: 28px;
@@ -80,20 +83,19 @@ section#contact {
   letter-spacing: 0.67px;
 }
 
-
 @media screen and (min-width: 480px) {
   #intro > header {
     padding: 36px 56px;
     display: flex;
     align-items: center;
   }
-  
+
   #intro > header > img {
     height: 59px;
     width: 58px;
-    object-fit: contain
+    object-fit: contain;
   }
-  
+
   #intro > header > h1 {
     font-size: 32px;
     font-weight: normal;
@@ -120,7 +122,6 @@ section#contact {
   width: 185px;
 }
 
-
 #intro > .banner > .info {
   padding: 0px 15px;
 }
@@ -140,7 +141,6 @@ section#contact {
 #intro > .banner > .info br {
   display: none;
 }
-
 
 @media screen and (min-width: 480px) {
   #intro > .banner > .info {
@@ -165,15 +165,15 @@ section#contact {
     margin: auto;
     width: max-content;
   }
-  
+
   #intro > .banner > .hero {
     display: block;
   }
-  
+
   #intro > .banner > .info {
     padding: 26px 0px 0px 89px;
   }
-  
+
   #intro > .banner > .info > .title {
     font-size: 40px;
   }
@@ -191,10 +191,9 @@ section#contact {
   background-image: linear-gradient(to right, #09c5b1 8%, #13a6b4 94%);
   text-align: center;
   text-decoration: none;
-  display: inline-block;
   color: white;
   line-height: 1;
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", cursive;
   font-size: 24px;
   display: flex;
   align-items: center;
@@ -214,7 +213,7 @@ section#contact {
 }
 
 #services > .content {
-  margin-top: 8px;  
+  margin-top: 8px;
   font-size: 18px;
   font-weight: normal;
   font-stretch: normal;
@@ -251,7 +250,6 @@ section#contact {
   font-style: normal;
   line-height: 1.33;
   letter-spacing: normal;
-  text-align: center;
   color: #4a4a4a;
 }
 
@@ -261,12 +259,11 @@ section#contact {
     height: 132px;
     margin-bottom: 16px;
   }
-  
+
   #services > .process > .item > span {
     font-size: 16px;
   }
 }
-
 
 @media screen and (min-width: 768px) {
   #services > .process {
@@ -279,8 +276,14 @@ section#contact {
   #services {
     box-shadow: 1px 1px 45px 20px rgba(188, 188, 188, 0.12);
     background-color: #fafdff;
-    margin: 89px;
+    margin: 73px 89px;
     padding: 44px 165px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #services {
+    margin: 146px 178px;
   }
 }
 
@@ -326,8 +329,6 @@ section#contact {
     text-align: center;
   }
 }
-
-
 
 /******************************
  07. Work
@@ -485,8 +486,6 @@ p.project-side-title {
   margin-bottom: 5px;
 }
 
-
-
 /******************************
  12. Contact
 ******************************/
@@ -497,7 +496,9 @@ p.project-side-title {
   padding-bottom: 0 !important;
 }
 
-#contact p, #contact h2, #contact h5 {
+#contact p,
+#contact h2,
+#contact h5 {
   color: #fff;
 }
 
@@ -601,8 +602,6 @@ p.project-side-title {
   font-size: 50px;
 }
 
-
-
 /******************************
  14. Media queries
 ******************************/
@@ -628,7 +627,6 @@ p.project-side-title {
     font-size: 40px;
   }
 }
-
 
 @media only screen and (max-width: 992px) {
   section header p {
@@ -670,7 +668,6 @@ p.project-side-title {
     margin-bottom: 50px;
   }
 }
-
 
 @media only screen and (max-width: 768px) {
   .separator p {
@@ -749,7 +746,6 @@ p.project-side-title {
   }
 }
 
-
 @media only screen and (max-width: 560px) {
   .intro-1 h1 {
     font-size: 50px;
@@ -776,13 +772,11 @@ p.project-side-title {
   }
 }
 
-
 @media only screen and (max-width: 510px) {
   .page-404-content p {
     font-size: 30px;
   }
 }
-
 
 @media only screen and (max-width: 480px) {
   .separator p {
@@ -816,7 +810,6 @@ p.project-side-title {
     font-size: 120px;
   }
 }
-
 
 @media only screen and (max-width: 380px) {
   .intro-1 p {
