@@ -191,7 +191,6 @@ section#contact {
   background-image: linear-gradient(to right, #09c5b1 8%, #13a6b4 94%);
   text-align: center;
   text-decoration: none;
-  display: inline-block;
   color: white;
   line-height: 1;
   font-family: "Bebas Neue", cursive;
@@ -251,7 +250,6 @@ section#contact {
   font-style: normal;
   line-height: 1.33;
   letter-spacing: normal;
-  text-align: center;
   color: #4a4a4a;
 }
 
