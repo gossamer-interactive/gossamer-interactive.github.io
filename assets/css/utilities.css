@@ -1,0 +1,10 @@
+.block {
+  float: none;
+  margin: 86px auto;
+}
+
+@media screen and (min-width: 768px) {
+  .block {
+    margin: 146px auto;
+  }
+}

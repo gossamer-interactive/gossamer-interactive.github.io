@@ -17,19 +17,6 @@ section header h2::after {
   margin: 24px auto;
 }
 
-section header p {
-  color: #505050;
-  font-size: 18px;
-  width: 70%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-section#work,
-section#contact {
-  padding: 130px 0 140px 0;
-}
-
 #intro {
   position: relative;
   width: 100%;
@@ -188,10 +175,6 @@ section#contact {
   margin-top: 40px;
 }
 
-#services {
-  padding: 56px 30px;
-}
-
 #services > h2 {
   font-size: 64px;
 }
@@ -260,13 +243,12 @@ section#contact {
   #services {
     box-shadow: 1px 1px 45px 20px rgba(188, 188, 188, 0.12);
     background-color: #fafdff;
-    margin: 73px 89px;
     padding: 44px 165px;
   }
 }
 
-@media screen and (min-width: 1200px) {
-  #services {
-    margin: 146px 178px;
+@media screen and (min-width: 992px) {
+  #work {
+    padding: 122px 67px;
   }
 }
