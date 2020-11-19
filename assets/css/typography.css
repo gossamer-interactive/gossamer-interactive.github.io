@@ -1,10 +1,14 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #2c2c2c;
 }
 
-h1, h2, h3, h4, h5 {
-  font-family: 'Bebas Neue', cursive;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Bebas Neue", cursive;
   margin: 0;
   padding: 0;
 }
@@ -24,7 +28,7 @@ span.big-h1 {
   font-size: 180px;
 }
 
-h2 {  
+h2 {
   font-size: 64px;
   font-weight: normal;
   font-stretch: normal;
