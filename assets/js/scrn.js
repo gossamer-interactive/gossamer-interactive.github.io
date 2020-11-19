@@ -26,33 +26,11 @@ $(document).ready(function () {
     },
   });
 
-  // vanillabox
-  $("a.image").vanillabox();
-
-  $("a.vimeo").vanillabox({
-    type: "iframe",
-  });
-
-  $("a.youtube").vanillabox({
-    type: "iframe",
-  });
-
-  $("a.website").vanillabox({
-    type: "iframe",
-  });
-
   // smooth scroll
   $("html").smoothScroll();
 
   // matchHeight
   $(".match-height").matchHeight();
-
-  // Fix parallax div height change
-  $(".filter-list > li").on("click", function () {
-    setTimeout(function () {
-      $(window).trigger("resize");
-    }, 800);
-  });
 }); // end (document).ready(function()
 
 // parallax
@@ -61,13 +39,6 @@ jQuery(window).trigger("resize").trigger("scroll");
 window.setTimeout(function () {
   $(window).resize();
 }, 500);
-
-// mixItUp
-$("#work-container").mixItUp({
-  controls: {
-    activeClass: "on",
-  },
-});
 
 // fade out intro on scroll
 $(window).scroll(function () {

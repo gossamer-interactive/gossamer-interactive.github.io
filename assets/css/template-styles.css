@@ -99,53 +99,6 @@ li.filter.on {
   color: #fff;
 }
 
-#work-container .mix {
-  display: none;
-}
-
-#work-container a {
-  display: block;
-  position: relative;
-}
-
-#work-container a:hover .overlay {
-  opacity: 1;
-}
-
-#work-container img {
-  margin-bottom: 30px;
-}
-
-.overlay {
-  background-color: rgba(255, 255, 255, 0.85);
-  text-align: center;
-  opacity: 0;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  display: flex;
-  display: -webkit-flex;
-  transition: all ease-in-out 300ms;
-  -webkit-transition: all ease-in-out 300ms;
-}
-
-.overlay-content {
-  margin: auto auto;
-}
-
-.overlay-content h3 {
-  font-size: 26px;
-  font-weight: 600;
-  text-transform: none;
-  margin-bottom: 14px;
-}
-
-.overlay-content p {
-  font-size: 16px;
-}
-
 /***** single project *****/
 
 .single-project {
@@ -412,15 +365,6 @@ p.project-side-title {
 
   .intro-2 p {
     width: 100%;
-  }
-
-  .work-gallery {
-    text-align: center;
-  }
-
-  .work-gallery img {
-    margin-left: auto;
-    margin-right: auto;
   }
 
   .single-project img {
