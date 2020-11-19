@@ -137,16 +137,17 @@
           </p>
 
           <div class="projects row">
+            {% for project in projects %}
             <div class="col-md-4 col-sm-6 project">
-              <a href="/images/work-1.jpg">
+              <a href="projects/{{ project.projectName | slug }}/">
                 <img
-                  src="/images/work-thumb-1.jpg"
-                  class="work-thumb img-responsive"
-                  alt=""
+                  src="{{ project.coverImage }}"
+                  class="project-cover-image img-responsive"
+                  alt="{{ project.projectName }}"
                 />
                 <div class="overlay">
                   <div class="overlay-content">
-                    <h3>Image</h3>
+                    <h3>{{ project.projectName }}</h3>
                     <p>View Details</p>
                   </div>
                   <!-- /.overlay-content -->
@@ -154,102 +155,7 @@
                 <!-- /.overlay-->
               </a>
             </div>
-            <!-- end col-md-4 -->
-
-            <div class="col-md-4 col-sm-6 project">
-              <a href="single-project.html">
-                <img
-                  src="/images/work-thumb-2.jpg"
-                  class="work-thumb img-responsive"
-                  alt=""
-                />
-                <div class="overlay">
-                  <div class="overlay-content">
-                    <h3>Single Project</h3>
-                    <p>View Details</p>
-                  </div>
-                  <!-- /.overlay-content -->
-                </div>
-                <!-- /.overlay-->
-              </a>
-            </div>
-            <!-- end col-md-4 -->
-
-            <div class="col-md-4 col-sm-6 project">
-              <a href="https://player.vimeo.com/video/61411580">
-                <img
-                  src="/images/work-thumb-3.jpg"
-                  class="work-thumb img-responsive"
-                  alt=""
-                />
-                <div class="overlay">
-                  <div class="overlay-content">
-                    <h3>Vimeo</h3>
-                    <p>View Details</p>
-                  </div>
-                  <!-- /.overlay-content -->
-                </div>
-                <!-- /.overlay-->
-              </a>
-            </div>
-            <!-- end col-md-4 -->
-
-            <div class="col-md-4 col-sm-6 project">
-              <a href="https://www.youtube.com/embed/xTrhGCH9TOk">
-                <img
-                  src="/images/work-thumb-4.jpg"
-                  class="work-thumb img-responsive"
-                  alt=""
-                />
-                <div class="overlay">
-                  <div class="overlay-content">
-                    <h3>Youtube</h3>
-                    <p>View Details</p>
-                  </div>
-                  <!-- /.overlay-content -->
-                </div>
-                <!-- /.overlay-->
-              </a>
-            </div>
-            <!-- end col-md-4 -->
-
-            <div class="col-md-4 col-sm-6 project">
-              <a href="http://themes.wearekllr.com">
-                <img
-                  src="/images/work-thumb-5.jpg"
-                  class="work-thumb img-responsive"
-                  alt=""
-                />
-                <div class="overlay">
-                  <div class="overlay-content">
-                    <h3>Website</h3>
-                    <p>View Details</p>
-                  </div>
-                  <!-- /.overlay-content -->
-                </div>
-                <!-- /.overlay-->
-              </a>
-            </div>
-            <!-- end col-md-4 -->
-
-            <div class="col-md-4 col-sm-6 project">
-              <a href="/images/work-2.jpg">
-                <img
-                  src="/images/work-thumb-6.jpg"
-                  class="work-thumb img-responsive"
-                  alt=""
-                />
-                <div class="overlay">
-                  <div class="overlay-content">
-                    <h3>Image</h3>
-                    <p>View Details</p>
-                  </div>
-                  <!-- /.overlay-content -->
-                </div>
-                <!-- /.overlay-->
-              </a>
-            </div>
-            <!-- end col-md-4 -->
+            {% endfor %}
           </div>
         </section>
       </div>

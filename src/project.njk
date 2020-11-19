@@ -1,0 +1,9 @@
+---
+pagination:
+  data: projects
+  size: 1
+  alias: project
+permalink: "projects/{{ project.projectName | slug }}/"
+---
+
+Project: {{ project.projectName }} Client: {{ project.clientName }}
