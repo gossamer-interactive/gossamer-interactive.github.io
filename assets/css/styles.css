@@ -279,9 +279,15 @@ section#contact {
   #services {
     box-shadow: 1px 1px 45px 20px rgba(188, 188, 188, 0.12);
     background-color: #fafdff;
-    margin: 89px;
+    margin: 73px 89px;
     padding: 44px 165px;
   }
+}
+
+@media screen and (min-width: 1200px) {
+  #services {
+    margin: 146px 178px;
+  }  
 }
 
 /******************************
