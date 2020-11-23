@@ -17,6 +17,45 @@ section header h2::after {
   margin: 24px auto;
 }
 
+.navbar {
+  background-color: #fff;
+  -webkit-box-shadow: 0 4px 3px 1px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 4px 3px 1px rgba(0, 0, 0, 0.08);
+  border-radius: 0;
+  margin: 0;
+  position: relative;
+  z-index: 1000;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.nav > li > a {
+  color: #2c2c2c;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 17px 40px;
+}
+
+.navbar-toggle .icon-bar {
+  background: #2c2c2c;
+}
+
+@media (min-width: 768px) {
+  .navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+  }
+
+  .navbar .navbar-collapse {
+    text-align: center;
+  }
+}
+
 #intro {
   position: relative;
   width: 100%;
@@ -246,7 +285,7 @@ section header h2::after {
   text-align: center;
 }
 
-.project {
+.project-item {
   display: block;
   position: relative;
 }
@@ -295,4 +334,81 @@ section header h2::after {
   .projects a:hover .overlay {
     opacity: 1;
   }
+}
+
+/* Project Page */
+
+.theme-default .nivoSlider {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+.project {
+  padding-top: 75px;
+}
+
+.project-header {
+  margin-bottom: 20px;
+}
+
+.project-header h1 {
+  font-size: 48px;
+}
+
+.project-header p {
+  color: #505050;
+  margin: 20px 0;
+  width: 100%;
+}
+
+@media screen and (min-width: 992px) {
+  .project {
+    padding-top: 150px;
+  }
+
+  .project header {
+    margin-bottom: 80px;
+  }
+
+  .project h1 {
+    font-size: 60px;
+  }
+
+  .project p {
+    margin: 40px 0;
+  }
+}
+
+.project-info {
+  background: #f6f9fa;
+  border: 1px solid #e9f0f3;
+  padding: 30px;
+}
+
+.project-info hr {
+  border-color: #dfdfdf;
+  margin: 0 0 10px 0;
+}
+
+.project-info li {
+  margin-bottom: 35px;
+}
+
+.project-info p {
+  margin: 0;
+}
+
+p.project-side-title {
+  color: #2c2c2c;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.copyright {
+  font-size: 14px;
+  text-align: center;
+  margin: 50px 0;
 }

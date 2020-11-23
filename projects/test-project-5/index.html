@@ -43,110 +43,107 @@
     <link href="/css/utilities.css" rel="stylesheet" />
   </head>
   <body>
-    <div class="animsition">
-      <div class="js_fixedcontent">
-        <nav class="navbar">
-          <div class="container">
-            <div class="navbar-header">
-              <button
-                type="button"
-                class="navbar-toggle collapsed"
-                data-toggle="collapse"
-                data-target="#navbar"
-                aria-expanded="false"
-                aria-controls="navbar"
-              >
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
+    <div class="js_fixedcontent">
+      <nav class="navbar">
+        <div class="container">
+          <div class="navbar-header">
+            <button
+              type="button"
+              class="navbar-toggle collapsed"
+              data-toggle="collapse"
+              data-target="#navbar"
+              aria-expanded="false"
+              aria-controls="navbar"
+            >
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="/#intro">Home</a></li>
+              <li><a href="/#services">Services</a></li>
+              <li><a href="/#work">Work</a></li>
+              <li><a href="/#contact">Contact</a></li>
+            </ul>
+          </div>
+          <!-- end nav-collapse -->
+        </div>
+      </nav>
+    </div>
+    <!-- end js_fixedcontent -->
+
+    <div class="container">
+      <section class="project">
+        <header class="project-header">
+          <h1>Test Project 5</h1>
+          <p>Test Description</p>
+        </header>
+
+        <div class="row">
+          <div class="col-md-9">
+            <div class="slider-wrapper theme-default">
+              <div id="slider" class="nivoSlider">
+                
+                <img
+                  src="/images/slide-1.jpg"
+                  alt="test"
+                  title="test caption 1"
+                  class="img-responsive"
+                />
+                
+                <img
+                  src="/images/slide-2.jpg"
+                  alt="test"
+                  title="test caption 2"
+                  class="img-responsive"
+                />
+                
+                <img
+                  src="/images/slide-3.jpg"
+                  alt="test"
+                  title="test caption 3"
+                  class="img-responsive"
+                />
+                
+              </div>
             </div>
-            <div id="navbar" class="collapse navbar-collapse">
-              <ul class="nav navbar-nav">
-                <li><a href="/#intro">Home</a></li>
-                <li><a href="/#services">Services</a></li>
-                <li><a href="/#work">Work</a></li>
-                <li><a href="/#contact">Contact</a></li>
+          </div>
+          <!-- end col-md-9 -->
+
+          <div class="col-md-3">
+            <div class="project-info">
+              <ul class="list-unstyled">
+                <li>
+                  <p class="project-side-title">Client</p>
+                  <hr />
+                  <p>Test Client</p>
+                </li>
+
+                <li>
+                  <p class="project-side-title">Date</p>
+                  <hr />
+                  <p>Aug, 2015</p>
+                </li>
+
+                <li>
+                  <p class="project-side-title">Visit</p>
+                  <hr />
+                  <p><a href="google.com">google.com</a></p>
+                </li>
               </ul>
             </div>
-            <!-- end nav-collapse -->
+            <!-- end project-info -->
           </div>
-        </nav>
-      </div>
-      <!-- end js_fixedcontent -->
-
-      <div class="container">
-        <section class="single-project">
-          <header>
-            <h1>Test Project 5</h1>
-            <p>Test Description</p>
-          </header>
-
-          <div class="row">
-            <div class="col-md-9">
-              <div class="slider-wrapper theme-default">
-                <div id="slider" class="nivoSlider">
-                  
-                  <img
-                    src="/images/slide-1.jpg"
-                    alt="test"
-                    title="test caption 1"
-                    class="img-responsive"
-                  />
-                  
-                  <img
-                    src="/images/slide-2.jpg"
-                    alt="test"
-                    title="test caption 2"
-                    class="img-responsive"
-                  />
-                  
-                  <img
-                    src="/images/slide-3.jpg"
-                    alt="test"
-                    title="test caption 3"
-                    class="img-responsive"
-                  />
-                  
-                </div>
-              </div>
-            </div>
-            <!-- end col-md-9 -->
-
-            <div class="col-md-3">
-              <div class="single-project-info">
-                <ul class="list-unstyled">
-                  <li>
-                    <p class="project-side-title">Client</p>
-                    <hr />
-                    <p>Test Client</p>
-                  </li>
-
-                  <li>
-                    <p class="project-side-title">Date</p>
-                    <hr />
-                    <p>Aug, 2015</p>
-                  </li>
-
-                  <li>
-                    <p class="project-side-title">Visit</p>
-                    <hr />
-                    <p><a href="google.com">google.com</a></p>
-                  </li>
-                </ul>
-              </div>
-              <!-- end single-project-info -->
-            </div>
-            <!-- end col-md-3 -->
-          </div>
-          <!-- end row -->
-        </section>
-      </div>
-
-      <p class="copyright">&copy; 2015 SCRN. All rights reserved</p>
+          <!-- end col-md-3 -->
+        </div>
+        <!-- end row -->
+      </section>
     </div>
-    <!-- /.animsition -->
+
+    <p class="copyright">&copy; 2015 SCRN. All rights reserved</p>
     <script src="/js/jquery-2.2.4.min.js"></script>
     <script src="/vendor/bootstrap/js/bootstrap.min.js"></script>
     <script src="/vendor/animsition/js/animsition.min.js"></script>
