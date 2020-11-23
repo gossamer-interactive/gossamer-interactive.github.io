@@ -90,47 +90,18 @@ permalink: "projects/{{ project.projectName | slug }}/"
         </header>
 
         <div class="row">
-          <div class="col-md-9">
-            <div class="slider-wrapper theme-default">
-              <div id="slider" class="nivoSlider">
-                {% for image in project.catalogueImages %}
-                <img
-                  src="{{ image.src }}"
-                  alt="{{ image.alt }}"
-                  title="{{ image.caption }}"
-                  class="img-responsive"
-                />
-                {% endfor %}
-              </div>
+          <div class="slider-wrapper theme-default">
+            <div id="slider" class="nivoSlider">
+              {% for image in project.catalogueImages %}
+              <img
+                src="{{ image.src }}"
+                alt="{{ image.alt }}"
+                title="{{ image.caption }}"
+                class="img-responsive"
+              />
+              {% endfor %}
             </div>
           </div>
-          <!-- end col-md-9 -->
-
-          <div class="col-md-3">
-            <div class="project-info">
-              <ul class="list-unstyled">
-                <li>
-                  <p class="project-side-title">Client</p>
-                  <hr />
-                  <p>{{ project.clientName }}</p>
-                </li>
-
-                <li>
-                  <p class="project-side-title">Date</p>
-                  <hr />
-                  <p>{{ project.date }}</p>
-                </li>
-
-                <li>
-                  <p class="project-side-title">Visit</p>
-                  <hr />
-                  <p><a href="{{ project.link }}">{{ project.link }}</a></p>
-                </li>
-              </ul>
-            </div>
-            <!-- end project-info -->
-          </div>
-          <!-- end col-md-3 -->
         </div>
         <!-- end row -->
       </section>
