@@ -3,28 +3,76 @@
     "projectName": "Test Project 1",
     "clientName": "Test Client",
     "coverImage": "/images/work-thumb-1.jpg",
-    "catalogueImages": ["x.jpg"],
     "description": "Test Description",
     "date": "Aug, 2015",
-    "link": "google.com"
+    "link": "google.com",
+    "catalogueImages": [
+      {
+        "src": "/images/slide-1.jpg",
+        "caption": "test caption 1",
+        "alt": "test"
+      },
+      {
+        "src": "/images/slide-2.jpg",
+        "caption": "test caption 2",
+        "alt": "test"
+      },
+      {
+        "src": "/images/slide-3.jpg",
+        "caption": "test caption 3",
+        "alt": "test"
+      }
+    ]
   },
   {
     "projectName": "Test Project 2",
     "clientName": "Test Client",
     "coverImage": "/images/work-thumb-2.jpg",
-    "catalogueImages": ["x.jpg"],
     "description": "Test Description",
     "date": "Aug, 2015",
-    "link": "google.com"
+    "link": "google.com",
+    "catalogueImages": [
+      {
+        "src": "/images/slide-1.jpg",
+        "caption": "test caption 1",
+        "alt": "test"
+      },
+      {
+        "src": "/images/slide-2.jpg",
+        "caption": "test caption 2",
+        "alt": "test"
+      },
+      {
+        "src": "/images/slide-3.jpg",
+        "caption": "test caption 3",
+        "alt": "test"
+      }
+    ]
   },
   {
     "projectName": "Test Project 3",
     "clientName": "Test Client",
     "coverImage": "/images/work-thumb-3.jpg",
-    "catalogueImages": ["x.jpg"],
     "description": "Test Description",
     "date": "Aug, 2015",
-    "link": "google.com"
+    "link": "google.com",
+    "catalogueImages": [
+      {
+        "src": "/images/slide-1.jpg",
+        "caption": "test caption 1",
+        "alt": "test"
+      },
+      {
+        "src": "/images/slide-2.jpg",
+        "caption": "test caption 2",
+        "alt": "test"
+      },
+      {
+        "src": "/images/slide-3.jpg",
+        "caption": "test caption 3",
+        "alt": "test"
+      }
+    ]
   },
   {
     "projectName": "Test Project 4",
