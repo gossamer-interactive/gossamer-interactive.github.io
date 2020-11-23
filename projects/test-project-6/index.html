@@ -1,2 +1,150 @@
 
-Project: Test Project 6 Client: Test Client
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SCRN</title>
+
+    <link href="/images/favicon.ico" rel="shortcut icon" />
+    <link href="/images/apple-touch-icon.png" rel="apple-touch-icon" />
+
+    <!-- Fonts -->
+    <link
+      href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,600,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="/vendor/font-awesome/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+    <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/vendor/animsition/css/animsition.min.css" rel="stylesheet" />
+    <link href="/vendor/nivo-slider/nivo-slider.css" rel="stylesheet" />
+    <link
+      href="/vendor/nivo-slider/themes/default/default.css"
+      rel="stylesheet"
+    />
+    <link href="/css/animate.css" rel="stylesheet" />
+    <link
+      href="/vendor/vanillabox/theme/bitter/vanillabox.css"
+      rel="stylesheet"
+    />
+
+    <!-- Main CSS -->
+    <link href="/css/typography.css" rel="stylesheet" />
+    <link href="/css/buttons.css" rel="stylesheet" />
+    <link href="/css/styles.css" rel="stylesheet" />
+    <link href="/css/template-styles.css" rel="stylesheet" />
+    <link href="/css/utilities.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="animsition">
+      <div class="js_fixedcontent">
+        <nav class="navbar">
+          <div class="container">
+            <div class="navbar-header">
+              <button
+                type="button"
+                class="navbar-toggle collapsed"
+                data-toggle="collapse"
+                data-target="#navbar"
+                aria-expanded="false"
+                aria-controls="navbar"
+              >
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+              <ul class="nav navbar-nav">
+                <li><a href="/#intro">Home</a></li>
+                <li><a href="/#services">Services</a></li>
+                <li><a href="/#work">Work</a></li>
+                <li><a href="/#contact">Contact</a></li>
+              </ul>
+            </div>
+            <!-- end nav-collapse -->
+          </div>
+        </nav>
+      </div>
+      <!-- end js_fixedcontent -->
+
+      <div class="container">
+        <section class="single-project">
+          <header>
+            <h1>Test Project 6</h1>
+            <p>Test Description</p>
+          </header>
+
+          <div class="row">
+            <div class="col-md-9">
+              <img
+                src="/images/single-project.jpg"
+                class="img-responsive"
+                alt=""
+              />
+            </div>
+            <!-- end col-md-9 -->
+
+            <div class="col-md-3">
+              <div class="single-project-info">
+                <ul class="list-unstyled">
+                  <li>
+                    <p class="project-side-title">Client</p>
+                    <hr />
+                    <p>Test Client</p>
+                  </li>
+
+                  <li>
+                    <p class="project-side-title">Date</p>
+                    <hr />
+                    <p>Aug, 2015</p>
+                  </li>
+
+                  <li>
+                    <p class="project-side-title">Visit</p>
+                    <hr />
+                    <p><a href="google.com">google.com</a></p>
+                  </li>
+                </ul>
+              </div>
+              <!-- end single-project-info -->
+            </div>
+            <!-- end col-md-3 -->
+          </div>
+          <!-- end row -->
+        </section>
+      </div>
+
+      <p class="copyright">&copy; 2015 SCRN. All rights reserved</p>
+    </div>
+    <!-- /.animsition -->
+    <script src="/js/jquery-2.2.4.min.js"></script>
+    <script src="/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/vendor/animsition/js/animsition.min.js"></script>
+    <script src="/vendor/parallax/parallax.min.js"></script>
+    <script src="/vendor/jquery.smoothscroll.min.js"></script>
+    <script src="/vendor/jquery.fixedcontent.min.js"></script>
+    <script src="/vendor/jquery.vide.min.js"></script>
+    <script src="/vendor/jquery.mixitup.min.js"></script>
+    <script src="/vendor/vanillabox/jquery.vanillabox-0.1.7.min.js"></script>
+    <script src="/vendor/match-height/jquery.matchHeight-min.js"></script>
+    <script src="/contact-form/js/validator.min.js"></script>
+    <script src="/contact-form/js/form-scripts.js"></script>
+    <script src="/js/scrn.js"></script>
+    <script src="/vendor/nivo-slider/jquery.nivo.slider.pack.js"></script>
+
+    <script>
+      $(window).load(function () {
+        $("#slider").nivoSlider();
+      });
+    </script>
+  </body>
+</html>
