@@ -5,7 +5,8 @@
     "coverImage": "/images/work-thumb-1.jpg",
     "catalogueImages": ["x.jpg"],
     "description": "Test Description",
-    "date": "Aug, 2015"
+    "date": "Aug, 2015",
+    "link": "google.com"
   },
   {
     "projectName": "Test Project 2",
@@ -13,7 +14,8 @@
     "coverImage": "/images/work-thumb-2.jpg",
     "catalogueImages": ["x.jpg"],
     "description": "Test Description",
-    "date": "Aug, 2015"
+    "date": "Aug, 2015",
+    "link": "google.com"
   },
   {
     "projectName": "Test Project 3",
@@ -21,7 +23,8 @@
     "coverImage": "/images/work-thumb-3.jpg",
     "catalogueImages": ["x.jpg"],
     "description": "Test Description",
-    "date": "Aug, 2015"
+    "date": "Aug, 2015",
+    "link": "google.com"
   },
   {
     "projectName": "Test Project 4",
@@ -29,7 +32,8 @@
     "coverImage": "/images/work-thumb-4.jpg",
     "catalogueImages": ["x.jpg"],
     "description": "Test Description",
-    "date": "Aug, 2015"
+    "date": "Aug, 2015",
+    "link": "google.com"
   },
   {
     "projectName": "Test Project 5",
@@ -37,7 +41,8 @@
     "coverImage": "/images/work-thumb-5.jpg",
     "catalogueImages": ["x.jpg"],
     "description": "Test Description",
-    "date": "Aug, 2015"
+    "date": "Aug, 2015",
+    "link": "google.com"
   },
   {
     "projectName": "Test Project 6",
@@ -45,6 +50,7 @@
     "coverImage": "/images/work-thumb-6.jpg",
     "catalogueImages": ["x.jpg"],
     "description": "Test Description",
-    "date": "Aug, 2015"
+    "date": "Aug, 2015",
+    "link": "google.com"
   }
 ]
