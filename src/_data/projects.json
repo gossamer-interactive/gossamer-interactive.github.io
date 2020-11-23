@@ -30,27 +30,75 @@
     "projectName": "Test Project 4",
     "clientName": "Test Client",
     "coverImage": "/images/work-thumb-4.jpg",
-    "catalogueImages": ["x.jpg"],
     "description": "Test Description",
     "date": "Aug, 2015",
-    "link": "google.com"
+    "link": "google.com",
+    "catalogueImages": [
+      {
+        "src": "/images/slide-1.jpg",
+        "caption": "test caption 1",
+        "alt": "test"
+      },
+      {
+        "src": "/images/slide-2.jpg",
+        "caption": "test caption 2",
+        "alt": "test"
+      },
+      {
+        "src": "/images/slide-3.jpg",
+        "caption": "test caption 3",
+        "alt": "test"
+      }
+    ]
   },
   {
     "projectName": "Test Project 5",
     "clientName": "Test Client",
     "coverImage": "/images/work-thumb-5.jpg",
-    "catalogueImages": ["x.jpg"],
     "description": "Test Description",
     "date": "Aug, 2015",
-    "link": "google.com"
+    "link": "google.com",
+    "catalogueImages": [
+      {
+        "src": "/images/slide-1.jpg",
+        "caption": "test caption 1",
+        "alt": "test"
+      },
+      {
+        "src": "/images/slide-2.jpg",
+        "caption": "test caption 2",
+        "alt": "test"
+      },
+      {
+        "src": "/images/slide-3.jpg",
+        "caption": "test caption 3",
+        "alt": "test"
+      }
+    ]
   },
   {
     "projectName": "Test Project 6",
     "clientName": "Test Client",
     "coverImage": "/images/work-thumb-6.jpg",
-    "catalogueImages": ["x.jpg"],
     "description": "Test Description",
     "date": "Aug, 2015",
-    "link": "google.com"
+    "link": "google.com",
+    "catalogueImages": [
+      {
+        "src": "/images/slide-1.jpg",
+        "caption": "test caption 1",
+        "alt": "test"
+      },
+      {
+        "src": "/images/slide-2.jpg",
+        "caption": "test caption 2",
+        "alt": "test"
+      },
+      {
+        "src": "/images/slide-3.jpg",
+        "caption": "test caption 3",
+        "alt": "test"
+      }
+    ]
   }
 ]

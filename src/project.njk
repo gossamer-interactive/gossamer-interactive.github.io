@@ -92,11 +92,18 @@ permalink: "projects/{{ project.projectName | slug }}/"
 
           <div class="row">
             <div class="col-md-9">
-              <img
-                src="/images/single-project.jpg"
-                class="img-responsive"
-                alt=""
-              />
+              <div class="slider-wrapper theme-default">
+                <div id="slider" class="nivoSlider">
+                  {% for image in project.catalogueImages %}
+                  <img
+                    src="{{ image.src }}"
+                    alt="{{ image.alt }}"
+                    title="{{ image.caption }}"
+                    class="img-responsive"
+                  />
+                  {% endfor %}
+                </div>
+              </div>
             </div>
             <!-- end col-md-9 -->
 
