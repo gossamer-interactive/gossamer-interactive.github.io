@@ -412,3 +412,65 @@ p.project-side-title {
   text-align: center;
   margin: 50px 0;
 }
+
+#contact {
+  background: #18547b;
+  color: #fff;
+  padding-top: 102px;
+  padding-bottom: 59px;
+}
+
+#contact header {
+  margin-bottom: 34px;
+}
+
+#contact header h2 {
+  color: #fff;
+}
+
+#contact p {
+  text-align: center;
+}
+
+#contact header h2::after {
+  background-color: #fff;
+}
+
+#contact form {
+  margin-top: 34px;
+}
+
+#contact label {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+#contact .form-group {
+  margin-bottom: 32px;
+}
+
+#contact .form-control {
+  background-color: #f6f9fa;
+  color: #2c2c2c;
+  border: none;
+  border-radius: 3px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+#contact input.form-control {
+  height: 40px;
+}
+
+#contact textarea.form-control {
+  min-height: 139px;
+}
+
+#contact button {
+  float: right;
+}
+
+#contact button:hover {
+  color: #2c2c2c;
+}
