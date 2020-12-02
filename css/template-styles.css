@@ -6,81 +6,6 @@
  12. Contact
 ******************************/
 
-#contact {
-  background: #333435;
-  color: #c0bdbd;
-  padding-bottom: 0 !important;
-}
-
-#contact p,
-#contact h2,
-#contact h5 {
-  color: #fff;
-}
-
-#contact header {
-  margin-bottom: 100px;
-}
-
-#contact header h2::after {
-  background-color: #fff;
-}
-
-#contact form {
-  margin-top: 70px;
-}
-
-#contact label {
-  font-size: 14px;
-  font-weight: 600;
-  margin-bottom: 10px;
-}
-
-#contact .form-group {
-  margin-bottom: 35px;
-}
-
-#contact .form-control {
-  background-color: #f6f9fa;
-  color: #2c2c2c;
-  border: none;
-  border-radius: 0;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-}
-
-#contact input.form-control {
-  height: 50px;
-}
-
-#contact button:hover {
-  color: #2c2c2c;
-}
-
-.contact-info {
-  text-align: center;
-  display: flex;
-  justify-content: space-between;
-}
-
-.contact-info li {
-  background-color: #3e3f40;
-  border-radius: 3px;
-  width: 230px;
-  height: 190px;
-  display: flex;
-}
-
-.contact-info i {
-  color: #a0a0a0;
-  font-size: 50px;
-  margin-bottom: 15px;
-}
-
-.contact-info .content {
-  margin: auto auto;
-}
-
 /******************************
  13. 404 page
 ******************************/
@@ -129,14 +54,6 @@
 
   .single-project-info li {
     margin-bottom: 25px;
-  }
-
-  .contact-info li {
-    width: 190px;
-  }
-
-  .contact-info p {
-    font-size: 14px;
   }
 
   .page-404-content p {
@@ -241,15 +158,6 @@
 
   .col-centered {
     display: block;
-  }
-
-  .contact-info {
-    display: block;
-  }
-
-  .contact-info li {
-    width: 100%;
-    margin-bottom: 30px;
   }
 }
 
