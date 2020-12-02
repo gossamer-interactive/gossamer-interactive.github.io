@@ -28,3 +28,25 @@
   -webkit-box-shadow: 0 0 0 2px #fff;
   box-shadow: 0 0 0 2px #fff;
 }
+
+.cta-button,
+a.cta-button:link,
+a.cta-button:visited,
+a.cta-button:hover,
+a.cta-button:active {
+  width: 149px;
+  height: 40px;
+  padding: 6px 9px 5px 10px;
+  border: none;
+  border-radius: 26.5px;
+  background-image: linear-gradient(to right, #09c5b1 8%, #13a6b4 94%);
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  line-height: 1;
+  font-family: "Bebas Neue", cursive;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

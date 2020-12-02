@@ -189,27 +189,6 @@ section header h2::after {
   }
 }
 
-.cta-button,
-.cta-button:link,
-.cta-button:visited,
-.cta-button:hover,
-.cta-button:active {
-  width: 149px;
-  height: 40px;
-  padding: 6px 9px 5px 10px;
-  border-radius: 26.5px;
-  background-image: linear-gradient(to right, #09c5b1 8%, #13a6b4 94%);
-  text-align: center;
-  text-decoration: none;
-  color: white;
-  line-height: 1;
-  font-family: "Bebas Neue", cursive;
-  font-size: 24px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .contact-us-button {
   margin-top: 40px;
 }
