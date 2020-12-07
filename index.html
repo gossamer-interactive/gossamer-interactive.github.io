@@ -278,13 +278,15 @@
                 id="contactForm"
                 data-toggle="validator"
                 class="shake"
+                method="POST"
+                action="https://formspree.io/f/xqkgyagg"
               >
                 <div class="form-group">
                   <label for="name">Name</label>
                   <input
                     type="text"
                     class="form-control"
-                    id="name"
+                    name="name"
                     placeholder="Enter name"
                     required
                     data-error="NEW ERROR MESSAGE"
@@ -297,7 +299,7 @@
                   <input
                     type="email"
                     class="form-control"
-                    id="email"
+                    name="email"
                     placeholder="Enter email"
                     required
                   />
@@ -307,7 +309,7 @@
                 <div class="form-group">
                   <label for="message">Message</label>
                   <textarea
-                    id="message"
+                    name="message"
                     class="form-control"
                     rows="5"
                     placeholder="Enter your message"

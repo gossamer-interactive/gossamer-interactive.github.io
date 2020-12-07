@@ -8,29 +8,13 @@ $("#contactForm")
     } else {
       // everything looks good!
       event.preventDefault();
-      submitForm();
+      submitForm(event.target);
     }
   });
 
-function submitForm() {
-  // Initiate Variables With Form Content
-  var name = $("#name").val();
-  var email = $("#email").val();
-  var message = $("#message").val();
-
-  $.ajax({
-    type: "POST",
-    url: "/contact-form/php/form-process.php",
-    data: "name=" + name + "&email=" + email + "&message=" + message,
-    success: function (text) {
-      if (text == "success") {
-        formSuccess();
-      } else {
-        formError();
-        submitMSG(false, text);
-      }
-    },
-  });
+function submitForm(form) {
+  const data = new FormData(form);
+  ajax(form.method, form.action, data, formSuccess, formError);
 }
 
 function formSuccess() {
@@ -57,4 +41,18 @@ function submitMSG(valid, msg) {
     var msgClasses = "h3 text-center text-danger";
   }
   $("#msgSubmit").removeClass().addClass(msgClasses).text(msg);
+}
+
+function ajax(method, url, data, success, error) {
+  var xhr = new XMLHttpRequest();
+  xhr.open(method, url);
+  xhr.setRequestHeader("Accept", "application/json");
+  xhr.onreadystatechange = function () {
+    if (xhr.readyState !== XMLHttpRequest.DONE) return;
+
+    xhr.status === 200
+      ? success(xhr.response, xhr.responseType)
+      : error(xhr.status, xhr.response, xhr.responseType);
+  };
+  xhr.send(data);
 }
