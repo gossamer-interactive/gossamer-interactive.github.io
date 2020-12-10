@@ -4,7 +4,7 @@ $("#contactForm")
     if (event.isDefaultPrevented()) {
       // handle the invalid form...
       formError();
-      submitMSG(false, "Did you fill in the form properly?");
+      submitMSG(false, "Please fill in the form properly");
     } else {
       // everything looks good!
       event.preventDefault();

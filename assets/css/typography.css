@@ -64,3 +64,9 @@ h5 {
 a {
   color: #0082b8;
 }
+
+.text-danger,
+.has-error .help-block {
+  color: darksalmon;
+  font-weight: bold;
+}
