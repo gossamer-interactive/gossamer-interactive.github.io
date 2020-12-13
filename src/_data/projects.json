@@ -1,8 +1,9 @@
 [
   {
-    "projectName": "Test Project 1",
+    "projectName": "Hello Project",
     "coverImage": "/images/work-thumb-1.jpg",
     "description": "Test Description",
+    "summary": "Test Summary",
     "catalogueImages": [
       {
         "src": "/images/slide-1.jpg",
@@ -25,6 +26,7 @@
     "projectName": "Test Project 2",
     "coverImage": "/images/work-thumb-2.jpg",
     "description": "Test Description",
+    "summary": "Test Summary",
     "catalogueImages": [
       {
         "src": "/images/slide-1.jpg",
@@ -47,6 +49,7 @@
     "projectName": "Test Project 3",
     "coverImage": "/images/work-thumb-3.jpg",
     "description": "Test Description",
+    "summary": "Test Summary",
     "catalogueImages": [
       {
         "src": "/images/slide-1.jpg",
@@ -69,6 +72,7 @@
     "projectName": "Test Project 4",
     "coverImage": "/images/work-thumb-4.jpg",
     "description": "Test Description",
+    "summary": "Test Summary",
     "catalogueImages": [
       {
         "src": "/images/slide-1.jpg",
@@ -91,6 +95,7 @@
     "projectName": "Test Project 5",
     "coverImage": "/images/work-thumb-5.jpg",
     "description": "Test Description",
+    "summary": "Test Summary",
     "catalogueImages": [
       {
         "src": "/images/slide-1.jpg",
@@ -113,6 +118,7 @@
     "projectName": "Test Project 6",
     "coverImage": "/images/work-thumb-6.jpg",
     "description": "Test Description",
+    "summary": "Test Summary",
     "catalogueImages": [
       {
         "src": "/images/slide-1.jpg",

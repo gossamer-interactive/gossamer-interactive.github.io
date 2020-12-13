@@ -324,7 +324,7 @@ section header h2::after {
 }
 
 .project {
-  padding-top: 75px;
+  padding: 75px 0;
 }
 
 .project-header {
@@ -343,7 +343,7 @@ section header h2::after {
 
 @media screen and (min-width: 992px) {
   .project {
-    padding-top: 150px;
+    padding: 150px 0;
   }
 
   .project header {

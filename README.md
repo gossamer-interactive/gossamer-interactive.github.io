@@ -52,11 +52,12 @@ The project list on the home page and each individual project page are auto gene
 
 Each project object should follow this format:
 
-```json
+```
 {
   "projectName": "Sample Project",                  # Project name
   "coverImage": "/images/work-thumb-1.jpg",         # Source of cover image displayed on the project list in the home page
   "description": "Sample Description",              # Project description
+  "summary": "Sample Description",                  # Project summary
   "catalogueImages": [                              # Array of images displayed in the carousel on the project's page
     {
       "src": "/images/slide-1.jpg",                 # Image source

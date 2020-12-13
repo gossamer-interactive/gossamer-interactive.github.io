@@ -80,7 +80,7 @@ permalink: "projects/{{ project.projectName | slug }}/"
       <section class="project">
         <header class="project-header">
           <h1>{{ project.projectName }}</h1>
-          <p>{{ project.description }}</p>
+          <p>{{ project.summary }}</p>
         </header>
 
         <div class="row">
@@ -97,7 +97,8 @@ permalink: "projects/{{ project.projectName | slug }}/"
             </div>
           </div>
         </div>
-        <!-- end row -->
+
+        <p>{{ project.description }}</p>
       </section>
     </div>
 
