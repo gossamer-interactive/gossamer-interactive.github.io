@@ -34,3 +34,7 @@ jobs:
 
       - name: Purge Cloudflare cache
         run: chmod +x ./bin/purge && ./bin/purge
+        env:
+          CLOUDFLARE_EMAIL: ${{ secrets.CLOUDFLARE_EMAIL }}
+          CLOUDFLARE_KEY: ${{ secrets.CLOUDFLARE_KEY }}
+          CLOUDFLARE_ZONEID: ${{ secrets.CLOUDFLARE_ZONEID }}
