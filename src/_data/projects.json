@@ -1,9 +1,9 @@
 [
   {
-    "projectName": "Hello Project",
+    "projectName": "Virtual Assistant Builder",
     "coverImage": "/images/work-thumb-1.jpg",
-    "description": "Test Description",
-    "summary": "Test Summary",
+    "description": "For this project we provided wireframing, prototyping, and marketing material designs.",
+    "summary": "B2B web application for chatbot configuration",
     "catalogueImages": [
       {
         "src": "/images/slide-1.jpg",
@@ -23,10 +23,10 @@
     ]
   },
   {
-    "projectName": "Test Project 2",
+    "projectName": "Humble Hive Social Media Application",
     "coverImage": "/images/work-thumb-2.jpg",
-    "description": "Test Description",
-    "summary": "Test Summary",
+    "description": "Social Media for Readers and Audiobook Listeners",
+    "summary": "While the actual mobile application (currently in development) is under NDA, we performed an Accessibility audit for the accompanying marketing website.",
     "catalogueImages": [
       {
         "src": "/images/slide-1.jpg",
@@ -46,9 +46,9 @@
     ]
   },
   {
-    "projectName": "Test Project 3",
+    "projectName": "Real Estate Website",
     "coverImage": "/images/work-thumb-3.jpg",
-    "description": "Test Description",
+    "description": "Wordpress Website Design and IDX Configuration",
     "summary": "Test Summary",
     "catalogueImages": [
       {
