@@ -267,6 +267,7 @@ section header h2::after {
 .project-item {
   display: block;
   position: relative;
+  height: 250px;
 }
 
 .project-cover-image {
