@@ -129,7 +129,7 @@ section header h2::after {
 }
 
 .hero > img {
-  width: 185px;
+  width: 100%;
 }
 
 .intro-banner > .info {
@@ -181,7 +181,7 @@ section header h2::after {
   }
 
   .intro-banner > .info {
-    padding: 26px 0px 0px 89px;
+    padding: 26px 0px 0px 0px;
   }
 
   .intro-banner > .info > .title {

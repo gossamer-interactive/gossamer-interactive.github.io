@@ -6,45 +6,65 @@
     "summary": "B2B web application for chatbot configuration",
     "catalogueImages": [
       {
-        "src": "/images/slide-1.jpg",
+        "src": "/images/slide-1-bav.png",
         "caption": "test caption 1",
         "alt": "test"
       },
       {
-        "src": "/images/slide-2.jpg",
+        "src": "/images/slide-2-bav.png",
         "caption": "test caption 2",
         "alt": "test"
       },
       {
-        "src": "/images/slide-3.jpg",
+        "src": "/images/slide-3-bav.png",
         "caption": "test caption 3",
         "alt": "test"
       }
     ]
   },
   {
-    "projectName": "Humble Hive Social Media Application",
+    "projectName": "Social Media Application",
     "coverImage": "/images/work-thumb-2.jpg",
     "description": "Social Media for Readers and Audiobook Listeners",
     "summary": "While the actual mobile application (currently in development) is under NDA, we performed an Accessibility audit for the accompanying marketing website.",
     "catalogueImages": [
       {
-        "src": "/images/slide-1.jpg",
+        "src": "/images/hh-1.jpg",
         "caption": "test caption 1",
         "alt": "test"
       },
       {
-        "src": "/images/slide-2.jpg",
+        "src": "/images/hh-2.jpg",
+        "caption": "test caption 2",
+        "alt": "test"
+      }
+    ]
+  },
+
+  {
+    "projectName": "Child Opportunity Map",
+    "coverImage": "/images/ddk.png",
+    "description": "Test Description",
+    "summary": "Test Summary",
+    "catalogueImages": [
+      {
+        "src": "/images/ddk-mobile.jpg",
+        "caption": "test caption 1",
+        "alt": "test"
+      },
+      {
+        "src": "/images/DDKall.png",
         "caption": "test caption 2",
         "alt": "test"
       },
       {
-        "src": "/images/slide-3.jpg",
+        "src": "/images/DDKshare.jpg",
         "caption": "test caption 3",
         "alt": "test"
       }
     ]
   },
+
   {
     "projectName": "Real Estate Website",
     "coverImage": "/images/work-thumb-3.jpg",
@@ -52,86 +72,43 @@
     "summary": "Test Summary",
     "catalogueImages": [
       {
-        "src": "/images/slide-1.jpg",
+        "src": "/images/realestate.jpg",
         "caption": "test caption 1",
-        "alt": "test"
-      },
-      {
-        "src": "/images/slide-2.jpg",
-        "caption": "test caption 2",
-        "alt": "test"
-      },
-      {
-        "src": "/images/slide-3.jpg",
-        "caption": "test caption 3",
         "alt": "test"
       }
     ]
   },
   {
-    "projectName": "Test Project 4",
-    "coverImage": "/images/mobile-primerica.png",
+    "projectName": "Responsive Website",
+    "coverImage": "/images/work-thumb-4.jpg",
     "description": "Test Description",
     "summary": "Test Summary",
     "catalogueImages": [
       {
-        "src": "/images/slide-1.jpg",
+        "src": "/images/tracking-1.jpg",
         "caption": "test caption 1",
-        "alt": "test"
-      },
-      {
-        "src": "/images/slide-2.jpg",
-        "caption": "test caption 2",
-        "alt": "test"
-      },
-      {
-        "src": "/images/slide-3.jpg",
-        "caption": "test caption 3",
         "alt": "test"
       }
     ]
   },
   {
-    "projectName": "Test Project 5",
-    "coverImage": "/images/Security.jpg",
-    "description": "Test Description",
+    "projectName": "Fintech Application",
+    "coverImage": "/images/primMobile.jpg",
+    "description": "",
     "summary": "Test Summary",
     "catalogueImages": [
       {
-        "src": "/images/slide-1.jpg",
+        "src": "/images/prim-1.jpg",
         "caption": "test caption 1",
         "alt": "test"
       },
       {
-        "src": "/images/slide-2.jpg",
+        "src": "/images/prim-2.jpg",
         "caption": "test caption 2",
         "alt": "test"
       },
       {
-        "src": "/images/slide-3.jpg",
-        "caption": "test caption 3",
-        "alt": "test"
-      }
-    ]
-  },
-  {
-    "projectName": "Test Project 6",
-    "coverImage": "/images/squadron.jpg",
-    "description": "Test Description",
-    "summary": "Test Summary",
-    "catalogueImages": [
-      {
-        "src": "/images/slide-1.jpg",
-        "caption": "test caption 1",
-        "alt": "test"
-      },
-      {
-        "src": "/images/slide-2.jpg",
-        "caption": "test caption 2",
-        "alt": "test"
-      },
-      {
-        "src": "/images/slide-3.jpg",
+        "src": "/images/prim-3.jpg",
         "caption": "test caption 3",
         "alt": "test"
       }
