@@ -73,7 +73,7 @@
     "summary": "Prototypes for E-Commerce Data Visualization Platform",
     "catalogueImages": [
       {
-        "src": "/images/realestate.jpg",
+        "src": "/images/Frame-6.jpg",
         "caption": "test caption 1",
         "alt": "test"
       }
@@ -98,7 +98,7 @@
   },
   {
     "projectName": "Fintech Application",
-    "coverImage": "/images/primMobile.jpg",
+    "coverImage": "/images/primmobile.jpg",
     "summary": "This application is for the management of life insurance, investments, and debt.",
     "catalogueImages": [
       {
