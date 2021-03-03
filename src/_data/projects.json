@@ -86,23 +86,6 @@
   },
 
   {
-    "projectName": "Pilot Training Wireframes - Tablet",
-    "coverImage": "/images/pilot.jpg",
-    "summary": "These wireframes, designed for the United States Airforce, feature tracking information for pilot training and continuing education.",
-    "catalogueImages": [
-      {
-        "src": "/images/pilot.jpg",
-        "caption": "test caption 1",
-        "alt": "test"
-      },
-      {
-        "src": "/images/settings.jpg",
-        "caption": "test caption 2",
-        "alt": "test"
-      }
-    ]
-  },
-  {
     "projectName": "Fintech Application",
     "coverImage": "/images/primmobile.jpg",
     "summary": "This application is for the management of life insurance, investments, and debt.",
@@ -121,6 +104,17 @@
         "src": "/images/prim-2.jpg",
         "caption": "test caption 2",
         "alt": "test"
+      }
+    ]
+  },
+  {
+    "projectName": "Responsive Real Estate Website",
+    "coverImage": "/images/realestate.jpg",
+    "summary": "For this project we created a custom Wordpress site for a mid-size real estate agency. Additional deliverables included brand identity guidelines, logo, and copy.",
+    "catalogueImages": [
+      {
+        "src": "/images/realestate.jpg",
+        "caption": "Responsive Real Estate Agency Website"
       }
     ]
   }
