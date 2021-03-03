@@ -1,5 +1,23 @@
 [
   {
+    "projectName": "Data-driven Platform for Walmart.com Sellers",
+    "coverImage": "/images/Frame-5.jpg",
+    "summary": "Prototypes for E-Commerce Data Visualization Platform",
+    "catalogueImages": [
+      {
+        "src": "/images/Frame-5.jpg",
+        "caption": "test caption 1",
+        "alt": "test"
+      },
+      {
+        "src": "/images/Frame-6.jpg",
+        "caption": "test caption 1",
+        "alt": "test"
+      }
+    ]
+  },
+
+  {
     "projectName": "Virtual Assistant Builder",
     "coverImage": "/images/Frame 1.jpg",
     "summary": "This B2B web application allows users to design, configure, and deploy chatbots at scale. Deliverables included wireframes, prototypes, and marketing materials.",
@@ -67,18 +85,6 @@
     ]
   },
 
-  {
-    "projectName": "Data-driven Platform for Walmart.com Sellers",
-    "coverImage": "/images/Frame-5.jpg",
-    "summary": "Prototypes for E-Commerce Data Visualization Platform",
-    "catalogueImages": [
-      {
-        "src": "/images/Frame-6.jpg",
-        "caption": "test caption 1",
-        "alt": "test"
-      }
-    ]
-  },
   {
     "projectName": "Pilot Training Wireframes - Tablet",
     "coverImage": "/images/pilot.jpg",
