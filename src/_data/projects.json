@@ -1,33 +1,36 @@
 [
   {
     "projectName": "Virtual Assistant Builder",
-    "coverImage": "/images/work-thumb-1.jpg",
-    "description": "For this project we provided wireframing, prototyping, and marketing material designs.",
-    "summary": "B2B web application for chatbot configuration",
+    "coverImage": "/images/Frame 1.jpg",
+    "summary": "This B2B web application allows users to design, configure, and deploy chatbots at scale. Deliverables included wireframes, prototypes, and marketing materials.",
     "catalogueImages": [
       {
-        "src": "/images/slide-1-bav.png",
+        "src": "/images/Frame 1.jpg",
         "caption": "test caption 1",
         "alt": "test"
       },
       {
-        "src": "/images/slide-2-bav.png",
+        "src": "/images/Bavard-chat.jpg",
         "caption": "test caption 2",
         "alt": "test"
       },
       {
-        "src": "/images/slide-3-bav.png",
+        "src": "/images/slide-2-bav.png",
         "caption": "test caption 3",
         "alt": "test"
       }
     ]
   },
   {
-    "projectName": "Social Media Application",
-    "coverImage": "/images/work-thumb-2.jpg",
-    "description": "Social Media for Readers and Audiobook Listeners",
-    "summary": "While the actual mobile application (currently in development) is under NDA, we performed an Accessibility audit for the accompanying marketing website.",
+    "projectName": "Social Media Mobile Application",
+    "coverImage": "/images/HH.jpg",
+    "summary": "While the actual mobile application (currently in development) is under NDA, we performed an accessibility audit for the marketing website. The color palette and typographical styles from the Style Guide are included below. ",
     "catalogueImages": [
+      {
+        "src": "/images/HH.jpg",
+        "caption": "test caption 1",
+        "alt": "test"
+      },
       {
         "src": "/images/hh-1.jpg",
         "caption": "test caption 1",
@@ -44,16 +47,15 @@
   {
     "projectName": "Child Opportunity Map",
     "coverImage": "/images/ddk.png",
-    "description": "Test Description",
-    "summary": "Test Summary",
+    "summary": "This data visualization depicts data regarding child opportunity research.",
     "catalogueImages": [
       {
-        "src": "/images/ddk-mobile.jpg",
+        "src": "/images/ddk.png",
         "caption": "test caption 1",
         "alt": "test"
       },
       {
-        "src": "/images/DDKall.png",
+        "src": "/images/ddk-mobile.png",
         "caption": "test caption 2",
         "alt": "test"
       },
@@ -66,10 +68,9 @@
   },
 
   {
-    "projectName": "Real Estate Website",
+    "projectName": "Responsive Real Estate Website",
     "coverImage": "/images/work-thumb-3.jpg",
-    "description": "Wordpress Website Design and IDX Configuration",
-    "summary": "Test Summary",
+    "summary": "Wordpress Website Design and IDX Configuration",
     "catalogueImages": [
       {
         "src": "/images/realestate.jpg",
@@ -79,14 +80,18 @@
     ]
   },
   {
-    "projectName": "Responsive Website",
-    "coverImage": "/images/work-thumb-4.jpg",
-    "description": "Test Description",
-    "summary": "Test Summary",
+    "projectName": "Pilot Training Wireframes - Tablet",
+    "coverImage": "/images/pilot.jpg",
+    "summary": "These wireframes, designed for the United States Airforce, feature tracking information for pilot training and continuing education.",
     "catalogueImages": [
       {
-        "src": "/images/tracking-1.jpg",
+        "src": "/images/pilot.jpg",
         "caption": "test caption 1",
+        "alt": "test"
+      },
+      {
+        "src": "/images/settings.jpg",
+        "caption": "test caption 2",
         "alt": "test"
       }
     ]
@@ -94,9 +99,13 @@
   {
     "projectName": "Fintech Application",
     "coverImage": "/images/primMobile.jpg",
-    "description": "",
-    "summary": "Test Summary",
+    "summary": "This application is for the management of life insurance, investments, and debt.",
     "catalogueImages": [
+      {
+        "src": "/images/prim-3.jpg",
+        "caption": "test caption 3",
+        "alt": "test"
+      },
       {
         "src": "/images/prim-1.jpg",
         "caption": "test caption 1",
@@ -105,11 +114,6 @@
       {
         "src": "/images/prim-2.jpg",
         "caption": "test caption 2",
-        "alt": "test"
-      },
-      {
-        "src": "/images/prim-3.jpg",
-        "caption": "test caption 3",
         "alt": "test"
       }
     ]
