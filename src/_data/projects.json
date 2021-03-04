@@ -5,14 +5,10 @@
     "summary": "This project, an e-commerce data visualization platform, included design deliverables including a style guide, home page, and responsive web application. Additional mockups available upon request. ",
     "catalogueImages": [
       {
-        "src": "/images/Frame-5.jpg",
-        "caption": "test caption 1",
-        "alt": "test"
+        "src": "/images/Frame-5.jpg"
       },
       {
-        "src": "/images/Frame-6.jpg",
-        "caption": "test caption 1",
-        "alt": "test"
+        "src": "/images/Frame-6.jpg"
       }
     ]
   },
@@ -23,19 +19,13 @@
     "summary": "This B2B web application allows users to design, configure, and deploy chatbots at scale. Deliverables included wireframes, prototypes, and marketing materials.",
     "catalogueImages": [
       {
-        "src": "/images/Frame 1.jpg",
-        "caption": "test caption 1",
-        "alt": "test"
+        "src": "/images/Frame 1.jpg"
       },
       {
-        "src": "/images/Bavard-chat.jpg",
-        "caption": "test caption 2",
-        "alt": "test"
+        "src": "/images/Bavard-chat.jpg"
       },
       {
-        "src": "/images/slide-2-bav.png",
-        "caption": "test caption 3",
-        "alt": "test"
+        "src": "/images/slide-2-bav.png"
       }
     ]
   },
@@ -45,19 +35,13 @@
     "summary": "While the actual mobile application (currently in development) is under NDA, we performed an accessibility audit for the marketing website. The color palette and typographical styles from the Style Guide are included below. ",
     "catalogueImages": [
       {
-        "src": "/images/HH.jpg",
-        "caption": "test caption 1",
-        "alt": "test"
+        "src": "/images/HH.jpg"
       },
       {
-        "src": "/images/hh-1.jpg",
-        "caption": "test caption 1",
-        "alt": "test"
+        "src": "/images/hh-1.jpg"
       },
       {
-        "src": "/images/hh-2.jpg",
-        "caption": "test caption 2",
-        "alt": "test"
+        "src": "/images/hh-2.jpg"
       }
     ]
   },
@@ -65,22 +49,16 @@
   {
     "projectName": "Child Opportunity Map",
     "coverImage": "/images/ddk.png",
-    "summary": "This data visualization depicts data regarding child opportunity research.",
+    "summary": "This data visualization depicts data regarding child opportunity research from Brandeis University.",
     "catalogueImages": [
       {
-        "src": "/images/ddk.png",
-        "caption": "test caption 1",
-        "alt": "test"
+        "src": "/images/ddk.png"
       },
       {
-        "src": "/images/ddk-mobile.png",
-        "caption": "test caption 2",
-        "alt": "test"
+        "src": "/images/ddk-mobile.png"
       },
       {
-        "src": "/images/DDKshare.jpg",
-        "caption": "test caption 3",
-        "alt": "test"
+        "src": "/images/DDKshare.jpg"
       }
     ]
   },
@@ -91,19 +69,13 @@
     "summary": "This application is for the management of life insurance, investments, and debt. ase study available upon request.",
     "catalogueImages": [
       {
-        "src": "/images/prim-3.jpg",
-        "caption": "test caption 3",
-        "alt": "test"
+        "src": "/images/prim-3.jpg"
       },
       {
-        "src": "/images/prim-1.jpg",
-        "caption": "test caption 1",
-        "alt": "test"
+        "src": "/images/prim-1.jpg"
       },
       {
-        "src": "/images/prim-2.jpg",
-        "caption": "test caption 2",
-        "alt": "test"
+        "src": "/images/prim-2.jpg"
       }
     ]
   },
@@ -114,8 +86,7 @@
     "summary": "For this project we created a custom Wordpress site for a mid-size real estate agency. Additional deliverables included brand identity guidelines, logo, and copy.",
     "catalogueImages": [
       {
-        "src": "/images/realestate.jpg",
-        "caption": "Responsive Real Estate Agency Website"
+        "src": "/images/realestate.jpg"
       }
     ]
   }
