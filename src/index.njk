@@ -125,14 +125,14 @@
           </header>
 
           <p class="content">
-            The work we create spans industries, but always emphasizes
+            The work we create spans various industries, but always emphasizes
             accessibility, usability, and visual appeal. Additional work
             available upon request.
           </p>
 
           <div class="projects row">
             {% for project in projects %}
-            <div class="col-md-12 project-item">
+            <div class="col-md-4 col-sm-6 project-item">
               <a href="projects/{{ project.projectName | slug }}/">
                 <img
                   src="{{ project.coverImage }}"
