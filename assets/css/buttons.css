@@ -1,6 +1,6 @@
 .btn-default {
   background: #2c2c2c;
-  color: #fff;
+  color: #fcfcfc;
   font-size: 12px;
   font-weight: 600;
   letter-spacing: 1px;
@@ -14,21 +14,22 @@
 
 .btn-default:hover {
   background-color: #2c2c2c;
-  color: #fff;
+  color: #fcfcfc;
   opacity: 0.7;
 }
 
 .btn-white {
-  background-color: #fff;
+  background-color: #fcfcfc;
   color: #2c2c2c;
 }
 
 .btn-white:hover {
-  color: #fff;
+  color: #fcfcfc;
   -webkit-box-shadow: 0 0 0 2px #fff;
   box-shadow: 0 0 0 2px #fff;
 }
 
+.sbmt-button,
 .cta-button,
 a.cta-button:link,
 a.cta-button:visited,
@@ -39,14 +40,29 @@ a.cta-button:active {
   padding: 6px 9px 5px 10px;
   border: none;
   border-radius: 26.5px;
-  background-image: linear-gradient(to right, #09c5b1 8%, #13a6b4 94%);
+  background-color: #208382;
+  /* background-image: linear-gradient(to right, #09c5b1 8%, #13a6b4 94%); */
   text-align: center;
   text-decoration: none;
-  color: white;
+  color: #fcfcfc;
   line-height: 1;
   font-family: "Bebas Neue", cursive;
   font-size: 24px;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.cta-button:hover,
+a.cta-button:hover {
+  background-color: #4aa7b2;
+}
+
+.sbmt-button {
+  background-color: #fcfcfc;
+  color: #208382;
+}
+
+.sbmt-button:hover {
+  background-color: #dcdcdc;
 }
