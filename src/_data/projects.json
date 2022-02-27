@@ -1,7 +1,7 @@
 [
   {
     "projectName": "Data-driven Platform for Walmart.com Sellers",
-    "coverImage": "/images/dataspark.png",
+    "coverImage": "/images/datasparkDesktop.png",
     "summary": "This project, an e-commerce data visualization platform, included design deliverables including a style guide, home page, and responsive web application. Additional mockups available upon request. ",
     "catalogueImages": [
       {
@@ -12,10 +12,30 @@
       }
     ]
   },
+  {
+    "projectName": "(NEW) Medical device software",
+    "coverImage": "/images/medDeviceDesktop.png",
+    "summary": " ",
+    "catalogueImages": [
+      {
+        "src": "/images/medDeviceDesktop.png"
+      }
+    ]
+  },
+  {
+    "projectName": "(NEW) Medical diagnostics software",
+    "coverImage": "/images/medDiagnosticsDesktop.png",
+    "summary": " ",
+    "catalogueImages": [
+      {
+        "src": "/images/medDiagnosticsDesktop.png"
+      }
+    ]
+  },
 
   {
     "projectName": "Virtual Assistant Builder",
-    "coverImage": "/images/lifeomic.png",
+    "coverImage": "/images/virtualAssistDesktop.png",
     "summary": "This B2B web application allows users to design, configure, and deploy chatbots at scale. Deliverables included wireframes, prototypes, and marketing materials.",
     "catalogueImages": [
       {
@@ -30,6 +50,34 @@
     ]
   },
   {
+    "projectName": "(NEW) Landing page for tax service",
+    "coverImage": "/images/medDiagnosticsDesktop.png",
+    "summary": " ",
+    "catalogueImages": [
+      {
+        "src": "/images/medDiagnosticsDesktop.png"
+      }
+    ]
+  },
+
+  {
+    "projectName": "Child Opportunity Map",
+    "coverImage": "/images/DDKall.png",
+    "summary": "This data visualization depicts data regarding child opportunity research from Brandeis University.",
+    "catalogueImages": [
+      {
+        "src": "/images/ddk.png"
+      },
+      {
+        "src": "/images/ddk-mobile.jpg"
+      },
+      {
+        "src": "/images/DDKshare.jpg"
+      }
+    ]
+  },
+
+  {
     "projectName": "Social Media Mobile Application",
     "coverImage": "/images/Group 76.png",
     "summary": "While the actual mobile application (currently in development) is under NDA, we performed an accessibility audit for the marketing website. The color palette and typographical styles from the Style Guide are included below. ",
@@ -42,23 +90,6 @@
       },
       {
         "src": "/images/hh-2.jpg"
-      }
-    ]
-  },
-
-  {
-    "projectName": "Child Opportunity Map",
-    "coverImage": "/images/Group 78.png",
-    "summary": "This data visualization depicts data regarding child opportunity research from Brandeis University.",
-    "catalogueImages": [
-      {
-        "src": "/images/ddk.png"
-      },
-      {
-        "src": "/images/ddk-mobile.jpg"
-      },
-      {
-        "src": "/images/DDKshare.jpg"
       }
     ]
   },

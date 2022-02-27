@@ -39,7 +39,7 @@ h2 {
   line-height: normal;
   letter-spacing: 0.5px;
   text-align: center;
-  color: #000000;
+  color: #2c2c2c;
 }
 
 h3 {
@@ -62,11 +62,17 @@ h5 {
 }
 
 a {
-  color: #0082b8;
+  color: #208382;
 }
 
 .text-danger,
 .has-error .help-block {
   color: darksalmon;
   font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  h2 {
+    font-size: 3.4rem;
+  }
 }
